@@ -10,6 +10,7 @@ gem "capistrano", "2.9.0"
 gem 'rvm-capistrano'
 gem "open4", "0.9.3"
 gem "exception_notification", "2.3.3.0"
+gem 'whenever'
 
 group :test do
   gem "mocha", "0.9.8"

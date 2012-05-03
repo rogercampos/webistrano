@@ -17,6 +17,7 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
+    chronic (0.6.7)
     erubis (2.7.0)
     exception_notification (2.3.3.0)
     highline (1.6.11)
@@ -43,6 +44,9 @@ GEM
     rvm-capistrano (1.1.0)
       capistrano (>= 2.0.0)
     syntax (1.0.0)
+    whenever (0.7.3)
+      activesupport (>= 2.3.4)
+      chronic (~> 0.6.3)
 
 PLATFORMS
   ruby
@@ -59,3 +63,4 @@ DEPENDENCIES
   rake
   rvm-capistrano
   syntax (= 1.0.0)
+  whenever
